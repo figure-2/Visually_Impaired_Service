@@ -1,0 +1,70 @@
+# 보안 파일 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# 파이썬 부산물
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 주피터 노트북 체크포인트
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 모델 파일 (용량이 크므로 제외 권장)
+*.pt
+*.pth
+*.pkl
+*.ckpt
+model_pt/
+models/
+checkpoints/
+
+# 데이터 및 미디어 파일 (필요시 제외)
+image/
+video/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp3
+*.wav
+*.mp4
+*.mov
+
+# 로그 파일
+*.log
+log_*.txt
+*.txt
+!requirements.txt
+
+# 임시 파일
+*.tmp
+*.temp
+sample_audio.mp3
+error_audio.mp3
+
+# OS 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/
+
